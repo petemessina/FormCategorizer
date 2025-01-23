@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormCategorizer", "FormCategorizer\FormCategorizer.csproj", "{7EF6EEC1-54B1-496F-B316-0B86A840ECB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormCategorizer.Tests", "FormCategorizer.Tests\FormCategorizer.Tests.csproj", "{21B2C3F0-3986-4331-B277-6DB802087F69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EF6EEC1-54B1-496F-B316-0B86A840ECB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF6EEC1-54B1-496F-B316-0B86A840ECB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF6EEC1-54B1-496F-B316-0B86A840ECB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF6EEC1-54B1-496F-B316-0B86A840ECB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B2C3F0-3986-4331-B277-6DB802087F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B2C3F0-3986-4331-B277-6DB802087F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B2C3F0-3986-4331-B277-6DB802087F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B2C3F0-3986-4331-B277-6DB802087F69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

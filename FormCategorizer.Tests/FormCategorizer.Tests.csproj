@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<NoWarn>$(NoWarn);SKEXP0080;SKEXP0110;SKEXP0001;SKEXP0010;SKEXP0101</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.DocumentIntelligence" Version="1.0.0" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.33.0" />
+    <PackageReference Include="Microsoft.Testing.Extensions.CodeCoverage" Version="17.13.1" />
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="PdfPig" Version="0.1.9" />
+    <PackageReference Include="TUnit" Version="0.6.117" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FormCategorizer\FormCategorizer.csproj" />
+  </ItemGroup>
+
+</Project>
